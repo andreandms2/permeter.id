@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/aifuljtt/test.permeter.id
+    - /bin/cp -R * ${DEPLOYPATH}
